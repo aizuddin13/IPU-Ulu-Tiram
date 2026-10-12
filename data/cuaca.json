@@ -1,0 +1,84 @@
+{
+ "lokasi": "Johor Bahru",
+ "dikemaskini": "2026-10-12T16:00:00+08:00",
+ "sumber": "MET Malaysia melalui data.gov.my",
+ "ramalan": [
+  {
+   "tarikh": "2026-10-12",
+   "hari": "Isnin",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Sepanjang hari",
+   "pagi": "Jerebu",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Jerebu",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-13",
+   "hari": "Selasa",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Sepanjang hari",
+   "pagi": "Jerebu",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Jerebu",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-14",
+   "hari": "Rabu",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Sepanjang hari",
+   "pagi": "Jerebu",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Jerebu",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-15",
+   "hari": "Khamis",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang",
+   "pagi": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Tiada hujan",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-16",
+   "hari": "Jumaat",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang",
+   "pagi": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Tiada hujan",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-17",
+   "hari": "Sabtu",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang",
+   "pagi": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Tiada hujan",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-18",
+   "hari": "Ahad",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang",
+   "pagi": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Tiada hujan",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "kawasan": "Ulu Tiram",
+ "stesen": "Larkin",
+ "id_stesen": "CA33J",
+ "jarak_km": 14.3,
+ "negeri": "Johor",
+ "dikemaskini": "2026-10-12T16:00:00+08:00",
+ "sumber": "APIMS, Jabatan Alam Sekitar",
+ "bacaan": [
+  {
+   "masa": "2026-10-11T17:00:00",
+   "ipu": 176,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T18:00:00",
+   "ipu": 175,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T19:00:00",
+   "ipu": 174,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T20:00:00",
+   "ipu": 173,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T21:00:00",
+   "ipu": 171,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T22:00:00",
+   "ipu": 170,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-11T23:00:00",
+   "ipu": 169,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T00:00:00",
+   "ipu": 168,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T01:00:00",
+   "ipu": 167,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T02:00:00",
+   "ipu": 165,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T03:00:00",
+   "ipu": 164,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T04:00:00",
+   "ipu": 163,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T05:00:00",
+   "ipu": 162,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T06:00:00",
+   "ipu": 162,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T07:00:00",
+   "ipu": 161,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T08:00:00",
+   "ipu": 160,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T09:00:00",
+   "ipu": 159,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T10:00:00",
+   "ipu": 159,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T11:00:00",
+   "ipu": 159,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T12:00:00",
+   "ipu": 160,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T13:00:00",
+   "ipu": 160,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T14:00:00",
+   "ipu": 158,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T15:00:00",
+   "ipu": 159,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-12T16:00:00",
+   "ipu": 160,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  }
+ ]
+}
