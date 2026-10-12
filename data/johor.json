@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-13T05:00:00+08:00",
+ "dikemaskini": "2026-10-13T06:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -45,7 +45,7 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 162,
+   "ipu": 161,
    "jarak_km": 111.7,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -53,7 +53,7 @@
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 143,
+   "ipu": 142,
    "jarak_km": 145.7,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 145,
+   "ipu": 142,
    "jarak_km": 158.9,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
