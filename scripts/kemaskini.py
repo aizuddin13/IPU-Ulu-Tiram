@@ -29,6 +29,7 @@ NEGERI_JOHOR = 1
 STESEN_RUJUKAN = "CA33J"     # Larkin — stesen terdekat Ulu Tiram
 JAM_DISIMPAN = 168           # tetingkap bergolek tujuh hari
 AMBANG_BASI_JAM = 3          # bacaan lebih lama daripada ini dikira basi
+MAKS_TAMPAL = 8              # tetingkap lampau paling banyak setiap larian
 
 APIMS = "https://eqms.doe.gov.my/api3/publicportalapims/apitablehourly"
 
@@ -119,15 +120,13 @@ def simpan(nama, isi):
         f.write("\n")
 
 
-def ambil_apims(sekarang):
-    """Tingkap 25 jam bagi semua stesen Johor, sehingga jam hadapan.
+def ambil_apims(sehingga):
+    """Tingkap 25 jam bagi semua stesen Johor, berakhir pada `sehingga`.
 
-    Jam dibundarkan ke atas supaya tetingkap merangkumi bacaan terbaharu
-    yang baru diterbitkan, dan `_r` menghalang jawapan lama daripada
-    cache dihidangkan semula.
+    APIMS menghidangkan tetingkap lampau juga, bukan hanya yang terkini,
+    jadi fungsi ini turut digunakan untuk menampal lompang lama. `_r`
+    menghalang jawapan lama daripada cache dihidangkan semula.
     """
-    sehingga = (sekarang.replace(minute=0, second=0, microsecond=0)
-                + timedelta(hours=1)).strftime("%Y-%m-%dT%H:00:00")
     url = (f"{APIMS}?stateid={NEGERI_JOHOR}&datetime={sehingga}"
            f"&stn=all&_r={int(time.time())}")
     print(f"APIMS: {url}")
@@ -156,6 +155,76 @@ def ambil_apims(sekarang):
     return bersih or None
 
 
+def jam_penuh(d):
+    return d.replace(minute=0, second=0, microsecond=0)
+
+
+def tampal_lompang(simpanan, dicuba, sekarang):
+    """Tarik tetingkap lampau sehingga tujuh hari penuh terisi.
+
+    Satu panggilan APIMS memberi 25 jam sahaja, jadi fail yang baru
+    bermula — atau yang terputus lebih lama daripada itu — tidak boleh
+    dipenuhi dengan menambah ke hadapan sahaja. Setiap tetingkap di sini
+    berakhir 24 jam selepas jam terawal yang hilang, jadi ia merangkumi
+    lompang itu dan bertindih sedikit dengan yang sudah ada.
+
+    `dicuba` menyimpan hujung tetingkap yang pernah diminta. Tanpanya,
+    jam yang memang tiada pada APIMS — stesen tutup, bacaan digugurkan —
+    akan diminta semula setiap jam, selama-lamanya.
+    """
+    hujung = jam_penuh(sekarang)
+    mula = hujung - timedelta(hours=JAM_DISIMPAN - 1)
+
+    def hilang():
+        t, keluar = mula, []
+        while t <= hujung:
+            if t.strftime("%Y-%m-%dT%H:00:00") not in simpanan:
+                keluar.append(t)
+            t += timedelta(hours=1)
+        return keluar
+
+    ditambah = 0
+    for _ in range(MAKS_TAMPAL):
+        tiada = hilang()
+        if not tiada:
+            break
+        # Tetingkap berakhir 24 jam selepas lompang terawal, supaya jam
+        # itu jatuh di hujung lama tetingkap dan bukan di luarnya.
+        sasaran = min(tiada[0] + timedelta(hours=24), hujung)
+        kunci = sasaran.strftime("%Y-%m-%dT%H:00:00")
+        if kunci in dicuba:
+            # Sudah diminta sebelum ini dan jam itu tetap tiada: anggap
+            # ia memang tiada pada APIMS, dan cari lompang seterusnya.
+            seterusnya = None
+            for t in tiada:
+                k = min(t + timedelta(hours=24), hujung).strftime("%Y-%m-%dT%H:00:00")
+                if k not in dicuba:
+                    seterusnya = k
+                    break
+            if seterusnya is None:
+                break
+            kunci = seterusnya
+        dicuba.add(kunci)
+        baris = ambil_apims(kunci)
+        if not baris:
+            print(f"  tetingkap {kunci}: tiada jawapan", file=sys.stderr)
+            continue
+        baru = 0
+        for b in baris:
+            if b["id"] != STESEN_RUJUKAN or b["masa"] in simpanan:
+                continue
+            simpanan[b["masa"]] = {
+                "masa": b["masa"], "ipu": b["ipu"],
+                "kategori": kategori(b["ipu"]), "pencemar": b["pencemar"],
+            }
+            baru += 1
+        ditambah += baru
+        print(f"  tetingkap {kunci}: +{baru} jam")
+        if baru:
+            time.sleep(1)  # jangan pukul APIMS bertalu-talu
+    return ditambah
+
+
 def tulis_ipu(baris, sekarang):
     rujukan = sorted([b for b in baris if b["id"] == STESEN_RUJUKAN],
                      key=lambda b: b["masa"])
@@ -181,7 +250,14 @@ def tulis_ipu(baris, sekarang):
             }
             baharu += 1
 
+    dicuba = set(sedia.get("tetingkap_dicuba", []))
+    ditampal = tampal_lompang(simpanan, dicuba, sekarang)
+
     bacaan = [simpanan[m] for m in sorted(simpanan)][-JAM_DISIMPAN:]
+    # Buang catatan tetingkap yang sudah jatuh di luar tempoh simpanan.
+    if bacaan:
+        had = bacaan[0]["masa"]
+        dicuba = {k for k in dicuba if k >= had}
     simpan("ipu.json", {
         "kawasan": "Ulu Tiram",
         "stesen": terbaharu["lokasi"],
@@ -190,10 +266,11 @@ def tulis_ipu(baris, sekarang):
         "negeri": "Johor",
         "dikemaskini": terbaharu["masa"] + "+08:00",
         "sumber": "APIMS, Jabatan Alam Sekitar",
+        "tetingkap_dicuba": sorted(dicuba),
         "bacaan": bacaan,
     })
-    print(f"ipu.json: {baharu} bacaan baharu, {len(bacaan)} jam disimpan, "
-          f"terkini {terbaharu['masa']} = {terbaharu['ipu']}")
+    print(f"ipu.json: {baharu} bacaan baharu, {ditampal} jam ditampal, "
+          f"{len(bacaan)} jam disimpan, terkini {terbaharu['masa']} = {terbaharu['ipu']}")
     return terbaharu
 
 
@@ -267,7 +344,10 @@ def main():
     sekarang = datetime.now(MYT)
     print(f"Masa Malaysia: {sekarang:%Y-%m-%d %H:%M:%S}")
 
-    baris = ambil_apims(sekarang)
+    # Jam dibundarkan ke atas supaya tetingkap merangkumi bacaan terbaharu
+    # yang baru diterbitkan.
+    sehingga = (jam_penuh(sekarang) + timedelta(hours=1)).strftime("%Y-%m-%dT%H:00:00")
+    baris = ambil_apims(sehingga)
     if baris is None:
         print("APIMS tidak dapat dibaca. Tiada fail ditulis.", file=sys.stderr)
         return 1

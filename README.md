@@ -34,7 +34,7 @@ sebagai pemalar dalam `scripts/kemaskini.py`.
 | Fail | Keterangan |
 | --- | --- |
 | `index.html` | Halaman itu sendiri. Tiada kebergantungan luar — semua carta dilukis sendiri sebagai SVG. |
-| `data/ipu.json` | Bacaan IPU sejam bagi stesen rujukan, tetingkap bergolek tujuh hari (168 bacaan). |
+| `data/ipu.json` | Bacaan IPU sejam bagi stesen rujukan, tetingkap bergolek tujuh hari (168 bacaan). Medan `tetingkap_dicuba` ialah catatan dalaman penampal lompang, bukan data bacaan. |
 | `data/johor.json` | Bacaan semasa kelapan stesen di Johor, disusun mengikut jarak dari Ulu Tiram. |
 | `data/cuaca.json` | Ramalan cuaca tujuh hari bagi daerah Johor Bahru. |
 
@@ -46,7 +46,7 @@ memanggil API APIMS serta data.gov.my terus dengan Python pustaka standard.
 Alur kerja yang sama menerbitkan halaman ini ke GitHub Pages, jadi tiada
 langkah manual dan tiada perkhidmatan luar yang terlibat.
 
-Dua perlindungan terbina:
+Tiga perlindungan terbina:
 
 - **Semakan kesegaran.** Jika bacaan terbaharu yang diterima lebih lama
   daripada tiga jam, skrip itu berhenti tanpa menulis apa-apa dan larian itu
@@ -55,6 +55,14 @@ Dua perlindungan terbina:
 - **Gabungan, bukan tambahan.** Setiap larian menerima tetingkap 25 jam dan
   mengisi mana-mana jam yang tiada dalam fail. Larian yang terlepas ditampal
   sendiri oleh larian berikutnya.
+- **Penampal lompang ke belakang.** Satu panggilan APIMS memberi 25 jam
+  sahaja, jadi fail yang baru bermula tidak boleh dipenuhi dengan menambah ke
+  hadapan. APIMS turut menghidangkan tetingkap lampau, jadi skrip itu
+  berjalan ke belakang — setiap tetingkap berakhir 24 jam selepas lompang
+  terawal — sehingga tujuh hari penuh terisi, paling banyak lapan tetingkap
+  setiap larian. Hujung tetingkap yang pernah diminta dicatat dalam
+  `tetingkap_dicuba`, supaya jam yang memang tiada pada APIMS (stesen tutup,
+  bacaan digugurkan) tidak diminta semula setiap jam selama-lamanya.
 
 Dua perincian kecil yang menjadikan larian itu boleh dipercayai: jam diminta
 dibundarkan ke atas supaya tetingkap merangkumi bacaan terbaharu yang baru
