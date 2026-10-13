@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-13T10:00:00+08:00",
+ "dikemaskini": "2026-10-13T11:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -29,7 +29,7 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 169,
+   "ipu": 168,
    "jarak_km": 45.5,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
