@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-14T07:00:00+08:00",
+ "dikemaskini": "2026-10-14T09:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -21,7 +21,7 @@
   {
    "nama": "Pengerang",
    "id": "CA35J",
-   "ipu": 162,
+   "ipu": 163,
    "jarak_km": 43.4,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -29,7 +29,7 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 165,
+   "ipu": 166,
    "jarak_km": 45.5,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 152,
+   "ipu": 151,
    "jarak_km": 158.9,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
