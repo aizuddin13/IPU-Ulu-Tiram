@@ -1,19 +1,8 @@
 {
  "lokasi": "Johor Bahru",
- "dikemaskini": "2026-10-15T23:58:13+08:00",
+ "dikemaskini": "2026-10-16T00:59:44+08:00",
  "sumber": "MET Malaysia melalui data.gov.my",
  "ramalan": [
-  {
-   "tarikh": "2026-10-15",
-   "hari": "Khamis",
-   "ringkasan": "Ribut petir di beberapa tempat",
-   "ringkasan_bila": "Sepanjang hari",
-   "pagi": "Jerebu",
-   "petang": "Ribut petir di beberapa tempat",
-   "malam": "Jerebu",
-   "suhu_min": 24,
-   "suhu_maks": 33
-  },
   {
    "tarikh": "2026-10-16",
    "hari": "Jumaat",
