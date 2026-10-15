@@ -5,7 +5,7 @@
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 190,
+   "ipu": 191,
    "jarak_km": 14.3,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -13,7 +13,7 @@
   {
    "nama": "Pasir Gudang",
    "id": "CA34J",
-   "ipu": 197,
+   "ipu": 198,
    "jarak_km": 16.3,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -21,7 +21,7 @@
   {
    "nama": "Pengerang",
    "id": "CA35J",
-   "ipu": 172,
+   "ipu": 173,
    "jarak_km": 43.4,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
