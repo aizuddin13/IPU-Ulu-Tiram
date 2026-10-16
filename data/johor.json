@@ -1,19 +1,19 @@
 {
- "dikemaskini": "2026-10-16T15:00:00+08:00",
+ "dikemaskini": "2026-10-16T16:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 200,
+   "ipu": 202,
    "jarak_km": 14.3,
-   "kategori": "Tidak Sihat",
+   "kategori": "Sangat Tidak Sihat",
    "pencemar": "PM2.5"
   },
   {
    "nama": "Pasir Gudang",
    "id": "CA34J",
-   "ipu": 204,
+   "ipu": 202,
    "jarak_km": 16.3,
    "kategori": "Sangat Tidak Sihat",
    "pencemar": "PM2.5"
@@ -29,7 +29,7 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 172,
+   "ipu": 171,
    "jarak_km": 45.5,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -37,7 +37,7 @@
   {
    "nama": "Kluang",
    "id": "CA32J",
-   "ipu": 169,
+   "ipu": 168,
    "jarak_km": 74.6,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -45,7 +45,7 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 170,
+   "ipu": 171,
    "jarak_km": 111.7,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -53,7 +53,7 @@
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 158,
+   "ipu": 156,
    "jarak_km": 145.7,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 160,
+   "ipu": 159,
    "jarak_km": 158.9,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
