@@ -1,6 +1,6 @@
 {
  "lokasi": "Johor Bahru",
- "dikemaskini": "2026-10-17T03:50:21+08:00",
+ "dikemaskini": "2026-10-17T04:54:06+08:00",
  "sumber": "MET Malaysia melalui data.gov.my",
  "ramalan": [
   {
@@ -72,11 +72,11 @@
   {
    "tarikh": "2026-10-23",
    "hari": "Jumaat",
-   "ringkasan": "Tiada hujan",
-   "ringkasan_bila": "Sepanjang hari",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang dan malam",
    "pagi": "Tiada hujan",
-   "petang": "Tiada hujan",
-   "malam": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Ribut petir di beberapa tempat",
    "suhu_min": 24,
    "suhu_maks": 33
   }
