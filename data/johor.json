@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-17T12:00:00+08:00",
+ "dikemaskini": "2026-10-17T13:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 168,
+   "ipu": 167,
    "jarak_km": 158.9,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
