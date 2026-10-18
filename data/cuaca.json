@@ -1,19 +1,8 @@
 {
  "lokasi": "Johor Bahru",
- "dikemaskini": "2026-10-18T23:48:25+08:00",
+ "dikemaskini": "2026-10-19T00:51:24+08:00",
  "sumber": "MET Malaysia melalui data.gov.my",
  "ramalan": [
-  {
-   "tarikh": "2026-10-18",
-   "hari": "Ahad",
-   "ringkasan": "Ribut petir di beberapa tempat",
-   "ringkasan_bila": "Sepanjang hari",
-   "pagi": "Jerebu",
-   "petang": "Ribut petir di beberapa tempat",
-   "malam": "Jerebu",
-   "suhu_min": 24,
-   "suhu_maks": 33
-  },
   {
    "tarikh": "2026-10-19",
    "hari": "Isnin",
@@ -30,7 +19,7 @@
    "hari": "Selasa",
    "ringkasan": "Ribut petir di beberapa tempat",
    "ringkasan_bila": "Sepanjang hari",
-   "pagi": "Jerebu",
+   "pagi": "Ribut petir di beberapa tempat",
    "petang": "Ribut petir di beberapa tempat",
    "malam": "Jerebu",
    "suhu_min": 24,
@@ -62,10 +51,10 @@
    "tarikh": "2026-10-23",
    "hari": "Jumaat",
    "ringkasan": "Ribut petir di beberapa tempat",
-   "ringkasan_bila": "Petang",
+   "ringkasan_bila": "Petang dan malam",
    "pagi": "Tiada hujan",
    "petang": "Ribut petir di beberapa tempat",
-   "malam": "Tiada hujan",
+   "malam": "Ribut petir di beberapa tempat",
    "suhu_min": 24,
    "suhu_maks": 33
   },
@@ -73,8 +62,19 @@
    "tarikh": "2026-10-24",
    "hari": "Sabtu",
    "ringkasan": "Ribut petir di beberapa tempat",
-   "ringkasan_bila": "Petang",
+   "ringkasan_bila": "Petang dan malam",
    "pagi": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Ribut petir di beberapa tempat",
+   "suhu_min": 24,
+   "suhu_maks": 33
+  },
+  {
+   "tarikh": "2026-10-25",
+   "hari": "Ahad",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Pagi dan petang",
+   "pagi": "Hujan di beberapa tempat",
    "petang": "Ribut petir di beberapa tempat",
    "malam": "Tiada hujan",
    "suhu_min": 24,
