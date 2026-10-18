@@ -4,7 +4,7 @@
  "id_stesen": "CA33J",
  "jarak_km": 14.3,
  "negeri": "Johor",
- "dikemaskini": "2026-10-18T15:00:00+08:00",
+ "dikemaskini": "2026-10-18T16:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "tetingkap_dicuba": [
   "2026-10-11T22:00:00",
@@ -23,12 +23,6 @@
   "2026-10-18T15:00:00"
  ],
  "bacaan": [
-  {
-   "masa": "2026-10-11T16:00:00",
-   "ipu": 176,
-   "kategori": "Tidak Sihat",
-   "pencemar": "PM2.5"
-  },
   {
    "masa": "2026-10-11T17:00:00",
    "ipu": 176,
@@ -1028,6 +1022,12 @@
   {
    "masa": "2026-10-18T15:00:00",
    "ipu": 171,
+   "kategori": "Tidak Sihat",
+   "pencemar": "PM2.5"
+  },
+  {
+   "masa": "2026-10-18T16:00:00",
+   "ipu": 170,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
   }
