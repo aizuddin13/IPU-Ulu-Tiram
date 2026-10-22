@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-22T16:00:00+08:00",
+ "dikemaskini": "2026-10-22T17:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -13,7 +13,7 @@
   {
    "nama": "Pasir Gudang",
    "id": "CA34J",
-   "ipu": 99,
+   "ipu": 96,
    "jarak_km": 16.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -37,9 +37,9 @@
   {
    "nama": "Kluang",
    "id": "CA32J",
-   "ipu": 99,
+   "ipu": 104,
    "jarak_km": 74.6,
-   "kategori": "Sederhana",
+   "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
   },
   {
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 152,
+   "ipu": 151,
    "jarak_km": 158.9,
    "kategori": "Tidak Sihat",
    "pencemar": "PM2.5"
