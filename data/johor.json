@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-27T17:00:00+08:00",
+ "dikemaskini": "2026-10-27T18:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -29,10 +29,10 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 55,
+   "ipu": 58,
    "jarak_km": 45.5,
    "kategori": "Sederhana",
-   "pencemar": "PM2.5"
+   "pencemar": "O3"
   },
   {
    "nama": "Kluang",
@@ -45,7 +45,7 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 90,
+   "ipu": 91,
    "jarak_km": 111.7,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -61,7 +61,7 @@
   {
    "nama": "Tangkak",
    "id": "CA66J",
-   "ipu": 69,
+   "ipu": 70,
    "jarak_km": 158.9,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
