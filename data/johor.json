@@ -1,11 +1,11 @@
 {
- "dikemaskini": "2026-10-29T03:00:00+08:00",
+ "dikemaskini": "2026-10-29T04:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 75,
+   "ipu": 74,
    "jarak_km": 14.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -29,7 +29,7 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 70,
+   "ipu": 69,
    "jarak_km": 45.5,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -45,7 +45,7 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 68,
+   "ipu": 66,
    "jarak_km": 111.7,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
