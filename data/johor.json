@@ -5,7 +5,7 @@
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 74,
+   "ipu": 73,
    "jarak_km": 14.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -13,7 +13,7 @@
   {
    "nama": "Pasir Gudang",
    "id": "CA34J",
-   "ipu": 80,
+   "ipu": 79,
    "jarak_km": 16.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
