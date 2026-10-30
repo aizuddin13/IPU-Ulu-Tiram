@@ -1,11 +1,11 @@
 {
- "dikemaskini": "2026-10-31T02:00:00+08:00",
+ "dikemaskini": "2026-10-31T03:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 69,
+   "ipu": 70,
    "jarak_km": 14.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -37,7 +37,7 @@
   {
    "nama": "Kluang",
    "id": "CA32J",
-   "ipu": 75,
+   "ipu": 74,
    "jarak_km": 74.6,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -53,7 +53,7 @@
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 49,
+   "ipu": 50,
    "jarak_km": 145.7,
    "kategori": "Baik",
    "pencemar": "PM2.5"
