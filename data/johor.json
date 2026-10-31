@@ -5,7 +5,7 @@
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 73,
+   "ipu": 72,
    "jarak_km": 14.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -21,7 +21,7 @@
   {
    "nama": "Pengerang",
    "id": "CA35J",
-   "ipu": 53,
+   "ipu": 52,
    "jarak_km": 43.4,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -53,7 +53,7 @@
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 56,
+   "ipu": 57,
    "jarak_km": 145.7,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
