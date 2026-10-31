@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-10-31T13:00:00+08:00",
+ "dikemaskini": "2026-10-31T14:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -45,7 +45,7 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 45,
+   "ipu": 46,
    "jarak_km": 111.7,
    "kategori": "Baik",
    "pencemar": "PM2.5"
