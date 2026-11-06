@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-11-06T17:00:00+08:00",
+ "dikemaskini": "2026-11-06T18:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -53,7 +53,7 @@
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 49,
+   "ipu": 46,
    "jarak_km": 145.7,
    "kategori": "Baik",
    "pencemar": "PM2.5"
