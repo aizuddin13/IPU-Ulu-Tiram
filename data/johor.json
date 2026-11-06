@@ -1,5 +1,5 @@
 {
- "dikemaskini": "2026-11-06T07:00:00+08:00",
+ "dikemaskini": "2026-11-06T08:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
@@ -37,7 +37,7 @@
   {
    "nama": "Kluang",
    "id": "CA32J",
-   "ipu": 38,
+   "ipu": 39,
    "jarak_km": 74.6,
    "kategori": "Baik",
    "pencemar": "PM2.5"
