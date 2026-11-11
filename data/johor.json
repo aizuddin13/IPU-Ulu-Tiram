@@ -1,11 +1,11 @@
 {
- "dikemaskini": "2026-11-11T23:00:00+08:00",
+ "dikemaskini": "2026-11-12T06:00:00+08:00",
  "sumber": "APIMS, Jabatan Alam Sekitar",
  "stesen": [
   {
    "nama": "Larkin",
    "id": "CA33J",
-   "ipu": 58,
+   "ipu": 59,
    "jarak_km": 14.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -13,7 +13,7 @@
   {
    "nama": "Pasir Gudang",
    "id": "CA34J",
-   "ipu": 56,
+   "ipu": 58,
    "jarak_km": 16.3,
    "kategori": "Sederhana",
    "pencemar": "PM2.5"
@@ -21,7 +21,7 @@
   {
    "nama": "Pengerang",
    "id": "CA35J",
-   "ipu": 32,
+   "ipu": 31,
    "jarak_km": 43.4,
    "kategori": "Baik",
    "pencemar": "PM2.5"
@@ -29,7 +29,7 @@
   {
    "nama": "Kota Tinggi",
    "id": "CA36J",
-   "ipu": 34,
+   "ipu": 33,
    "jarak_km": 45.5,
    "kategori": "Baik",
    "pencemar": "PM2.5"
@@ -37,7 +37,7 @@
   {
    "nama": "Kluang",
    "id": "CA32J",
-   "ipu": 42,
+   "ipu": 50,
    "jarak_km": 74.6,
    "kategori": "Baik",
    "pencemar": "PM2.5"
@@ -45,15 +45,15 @@
   {
    "nama": "Batu Pahat",
    "id": "CA31J",
-   "ipu": 32,
+   "ipu": 33,
    "jarak_km": 111.7,
    "kategori": "Baik",
-   "pencemar": "O3"
+   "pencemar": "PM2.5"
   },
   {
    "nama": "Segamat",
    "id": "CA29J",
-   "ipu": 33,
+   "ipu": 31,
    "jarak_km": 145.7,
    "kategori": "Baik",
    "pencemar": "PM2.5"
