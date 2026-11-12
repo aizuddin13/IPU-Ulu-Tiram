@@ -1,11 +1,11 @@
 {
  "lokasi": "Johor Bahru",
- "dikemaskini": "2026-11-12T21:00:01+08:00",
+ "dikemaskini": "2026-11-13T04:58:19+08:00",
  "sumber": "MET Malaysia melalui data.gov.my",
  "ramalan": [
   {
-   "tarikh": "2026-11-12",
-   "hari": "Khamis",
+   "tarikh": "2026-11-13",
+   "hari": "Jumaat",
    "ringkasan": "Ribut petir di beberapa tempat",
    "ringkasan_bila": "Petang",
    "pagi": "Tiada hujan",
@@ -15,23 +15,12 @@
    "suhu_maks": 32
   },
   {
-   "tarikh": "2026-11-13",
-   "hari": "Jumaat",
-   "ringkasan": "Tiada hujan",
-   "ringkasan_bila": "Sepanjang hari",
-   "pagi": "Tiada hujan",
-   "petang": "Tiada hujan",
-   "malam": "Tiada hujan",
-   "suhu_min": 23,
-   "suhu_maks": 32
-  },
-  {
    "tarikh": "2026-11-14",
    "hari": "Sabtu",
-   "ringkasan": "Tiada hujan",
-   "ringkasan_bila": "Sepanjang hari",
+   "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Petang",
    "pagi": "Tiada hujan",
-   "petang": "Tiada hujan",
+   "petang": "Ribut petir di beberapa tempat",
    "malam": "Tiada hujan",
    "suhu_min": 23,
    "suhu_maks": 32
@@ -51,10 +40,10 @@
    "tarikh": "2026-11-16",
    "hari": "Isnin",
    "ringkasan": "Ribut petir di beberapa tempat",
-   "ringkasan_bila": "Petang",
+   "ringkasan_bila": "Petang dan malam",
    "pagi": "Tiada hujan",
    "petang": "Ribut petir di beberapa tempat",
-   "malam": "Tiada hujan",
+   "malam": "Ribut petir di beberapa tempat",
    "suhu_min": 23,
    "suhu_maks": 32
   },
@@ -62,16 +51,27 @@
    "tarikh": "2026-11-17",
    "hari": "Selasa",
    "ringkasan": "Ribut petir di beberapa tempat",
+   "ringkasan_bila": "Pagi dan petang",
+   "pagi": "Hujan di beberapa tempat",
+   "petang": "Ribut petir di beberapa tempat",
+   "malam": "Tiada hujan",
+   "suhu_min": 23,
+   "suhu_maks": 31
+  },
+  {
+   "tarikh": "2026-11-18",
+   "hari": "Rabu",
+   "ringkasan": "Ribut petir di beberapa tempat",
    "ringkasan_bila": "Petang",
    "pagi": "Tiada hujan",
    "petang": "Ribut petir di beberapa tempat",
    "malam": "Tiada hujan",
    "suhu_min": 23,
-   "suhu_maks": 32
+   "suhu_maks": 31
   },
   {
-   "tarikh": "2026-11-18",
-   "hari": "Rabu",
+   "tarikh": "2026-11-19",
+   "hari": "Khamis",
    "ringkasan": "Ribut petir di beberapa tempat",
    "ringkasan_bila": "Petang",
    "pagi": "Tiada hujan",
